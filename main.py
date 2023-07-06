@@ -6,4 +6,9 @@ for i in range(5):
     lotto = random.sample(range(1,46),6)
     print(lotto)
 
+y =  input ("y를 입력하시면 한번더 추첨")
+if y == "y" :
+    lotto = random.sample(range(1,46),6)
+    print(lotto)
+
 
