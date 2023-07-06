@@ -11,4 +11,9 @@ if y == "y" :
     lotto = random.sample(range(1,46),6)
     print(lotto)
 
+x = input ("x를 입력하시면 한번 더 추첨")
+if x == "x" :
+    lotto = random.sample(range(1,46),6)
+    print(lotto)
+
 
